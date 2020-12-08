@@ -1,0 +1,1086 @@
+{
+  "Mysql": {
+    "UseMysql": false,
+    "MysqlHost": "localhost",
+    "MysqlUser": "apitest",
+    "MysqlPass": "12345",
+    "MysqlDB": "apitest"
+  },
+  "General": {
+    "Color": [
+      0,
+      255,
+      255,
+      1
+    ],
+    "TimedPointsReward": {
+      "Enabled": true,
+      "Interval": 5,
+      "Groups": {
+        "Default": {
+          "Amount": 5
+        },
+        "Admins": {
+          "Amount": 100
+        },
+        "Svip": {
+          "Amount": 20
+        }
+      }
+    },
+    "ItemsPerPage": 10,
+    "ShopDisplayTime": 15.0,
+    "ShopTextSize": 1.3,
+    "DbPathOverride": "",
+    "DefaultKit": "exp100"
+  },
+  "Kits": {
+    "exp100": {
+      "DefaultAmount": 1,
+      "Price": 0,
+      "Description": "经验1000",
+      "OnlyFromSpawn": false,
+      "Items": [
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "$advkits exp 1000"
+        }
+      ]
+    },
+    "KT01": {
+      "DefaultAmount": 1,
+      "Price": 500,
+      "Description": "空投",
+      "OnlyFromSpawn": false,
+      "Items": [
+        {
+          "Amount": 1,
+          "Quality": 10,
+          "ForceBlueprint": false,
+          "Blueprint": "$advkits beacon SupplyCrate_Level03_C"
+        }
+      ]
+    },
+    "A001": {
+      "DefaultAmount": 1,
+      "Description": "新手礼包",
+      "Items": [
+        {
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 1,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'"
+        },
+        {
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleRifleBullet.PrimalItemAmmo_SimpleRifleBullet'"
+        },
+        {
+          "Amount": 50,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart'"
+        },
+        {
+          "Amount": 100,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat'"
+        },
+        {
+          "Amount": 5,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'"
+        }
+      ],
+      "Dinos": [
+        {
+          "Level": 100,
+          "Neutered": true,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'"
+        }
+      ]
+    },
+    "A002": {
+      "DefaultAmount": 1,
+      "Description": "建家礼包",
+      "Items": [
+        {
+          "Amount": 35,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalFloor.PrimalItemStructure_MetalFloor'"
+        },
+        {
+          "Amount": 60,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWall.PrimalItemStructure_MetalWall'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/Mods/B2kBinocular/Binocular/PrimalItem_WeaponB2kBinocular.PrimalItem_WeaponB2kBinocular'"
+        },
+        {
+          "Amount": 35,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeiling.PrimalItemStructure_MetalCeiling'"
+        },
+        {
+          "Amount": 4,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalWallWithDoor.PrimalItemStructure_MetalWallWithDoor'"
+        },
+        {
+          "Amount": 4,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalDoor.PrimalItemStructure_MetalDoor'"
+        },
+        {
+          "Amount": 10,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRamp.PrimalItemStructure_MetalRamp'"
+        }
+      ]
+    },
+    "A003": {
+        "DefaultAmount": 1,
+        "Description": "岩石巨人+传说鞍",
+        "Items": [
+          {
+            "Amount": 1,
+            "Quality": 10,
+            "ForceBlueprint": false,
+            "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'"
+          }
+        ],
+        "Dinos": [
+          {
+            "Level": 100,
+            "Neutered": true,
+            "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
+          }
+        ]
+      }
+    
+  },
+  "ShopItems": {
+    "L1": {
+      "Type": "dino",
+      "Description": "岩石巨人",
+      "Level": 300,
+      "Price": 5000,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
+    },
+    "L2": {
+      "Type": "dino",
+      "Description": "狮鹫",
+      "Level": 300,
+      "Price": 3000,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'"
+    },
+    "L3": {
+      "Type": "dino",
+      "Description": "玛纳加尔姆430级",
+      "Level": 430,
+      "Price": 4500,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'"
+    },
+    "L4": {
+      "Type": "dino",
+      "Description": "脊颌翼龙",
+      "Level": 430,
+      "Price": 4500,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP'"
+    },
+    "L5": {
+      "Type": "dino",
+      "Description": "闪电兽",
+      "Level": 200,
+      "Price": 500,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'"
+    },
+    "L6": {
+      "Type": "dino",
+      "Description": "受精水晶飞龙蛋200级",
+      "Price": 2000,
+      "Level": 200,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized'"
+
+    },
+    "L7": {
+      "Type": "dino",
+      "Description": "受精水晶飞龙人族蛋200级",
+      "Price": 2000,
+      "Level": 200,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember'"
+
+    },
+    "L8": {
+      "Type": "dino",
+      "Description": "受精的恐爪龙蛋250级",
+      "Price": 2000,
+      "Level": 250,
+      "Neutered": false,
+      "Blueprint": "Blueprint'/Game/Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized'"
+
+    },
+
+
+
+
+    "C01": {
+      "Type": "item",
+      "Description": "火药",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gunpowder.PrimalItemResource_Gunpowder'"
+        }
+      ]
+    },
+    "C02": {
+      "Type": "item",
+      "Description": "纤维",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers'"
+        }
+      ]
+    },
+    "C03": {
+      "Type": "item",
+      "Description": "木头*10000",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'"
+        }
+      ]
+    },
+    "C04": {
+      "Type": "item",
+      "Description": "硫磺*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'"
+        }
+      ]
+    },
+    "C05": {
+      "Type": "item",
+      "Description": "树脂*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'"
+        }
+      ]
+    },
+    "C06": {
+      "Type": "item",
+      "Description": "化肥*20",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 20,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'"
+        }
+      ]
+    },
+    "C07": {
+      "Type": "item",
+      "Description": "水泥*10000",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'"
+        }
+      ]
+    },
+    "C08": {
+      "Type": "item",
+      "Description": "水晶*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'"
+        }
+      ]
+    },
+    "C09": {
+      "Type": "item",
+      "Description": "石油*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'"
+        }
+      ]
+    },
+    "C10": {
+      "Type": "item",
+      "Description": "汽油*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'"
+        }
+      ]
+    },
+    "C11": {
+      "Type": "item",
+      "Description": "聚合物*5000",
+      "Price": 1060,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'"
+        }
+      ]
+    },
+    "C12": {
+      "Type": "item",
+      "Description": "金属锭*5000",
+      "Price": 60,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 5000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'"
+        }
+      ]
+    },
+    "C13": {
+      "Type": "item",
+      "Description": "含硅珍珠*10000",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'"
+        }
+      ]
+    },
+    "C14": {
+      "Type": "item",
+      "Description": "电路元件*1000",
+      "Price": 120,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'"
+        }
+      ]
+    },
+    "C15": {
+      "Type": "item",
+      "Description": "能量元素",
+      "Price": 1000,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1000,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
+        }
+      ]
+    },
+    "C16": {
+      "Type": "item",
+      "Description": "古巨蜥毒素",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'"
+        }
+      ]
+    },
+    "C17": {
+      "Type": "item",
+      "Description": "阿根廷巨鹰爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'"
+        }
+      ]
+    },
+    "C18": {
+      "Type": "item",
+      "Description": "巨齿鲨牙齿",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'"
+        }
+      ]
+    },
+    "C19": {
+      "Type": "item",
+      "Description": "霸王龙手臂",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
+        }
+      ]
+    },
+    "C20": {
+      "Type": "item",
+      "Description": "蜥脚类恐龙脊椎",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'"
+        }
+      ]
+    },
+    "C21": {
+      "Type": "item",
+      "Description": "托斯特巨鱿触手",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"
+        }
+      ]
+    },
+    "C22": {
+      "Type": "item",
+      "Description": "火焰勾爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"
+        }
+      ]
+    },
+    "C23": {
+      "Type": "item",
+      "Description": "闪电勾爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'"
+        }
+      ]
+    },
+    "C24": {
+      "Type": "item",
+      "Description": "剧毒勾爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'"
+        }
+      ]
+    },
+    "C25": {
+      "Type": "item",
+      "Description": "异特龙大脑",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
+        }
+      ]
+    },
+    "C26": {
+      "Type": "item",
+      "Description": "龙王鲸鲸脂",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
+        }
+      ]
+    },
+    "C27": {
+      "Type": "item",
+      "Description": "南方巨兽龙心脏",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'"
+        }
+      ]
+    },
+    "C28": {
+      "Type": "item",
+      "Description": "帝鳄皮肤",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"
+        }
+      ]
+    },
+    "C29": {
+      "Type": "item",
+      "Description": "棘背龙背脊",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"
+        }
+      ]
+    },
+    "C30": {
+      "Type": "item",
+      "Description": "镰刀龙爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'"
+        }
+      ]
+    },
+    "C31": {
+      "Type": "item",
+      "Description": "袋狮勾爪",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"
+        }
+      ]
+    },
+    "C32": {
+      "Type": "item",
+      "Description": "泰坦巨蟒毒液",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"
+        }
+      ]
+    },
+    "C33": {
+      "Type": "item",
+      "Description": "羽暴龙肺",
+      "Price": 20,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'"
+        }
+      ]
+    },
+
+
+    "C36": {
+      "Type": "item",
+      "Description": "龙涎香*100",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 100,
+          "Blueprint": "Blueprint'/Game/Genesis/Dinos/SpaceWhale/PrimalItemResource_Ambergris.PrimalItemResource_Ambergris'"
+        }
+      ]
+    },
+
+
+    "C37": {
+      "Type": "item",
+      "Description": "防腐盐*100",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 100,
+          "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_PreservingSalt.PrimalItemResource_PreservingSalt'"
+        }
+      ]
+    },
+
+    "C39": {
+      "Type": "item",
+      "Description": "死神国王信息毒素*100",
+      "Price": 500,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 100,
+          "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"
+        }
+      ]
+    },
+    "C40": {
+      "Type": "item",
+      "Description": "睡袋*10",
+      "Price": 150,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 10,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SleepingBag_Base.PrimalItemStructure_SleepingBag_Base'"
+        }
+      ]
+    },
+    "C41": {
+      "Type": "item",
+      "Description": "血包*100",
+      "Price": 250,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 100,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BloodPack.PrimalItemConsumable_BloodPack'"
+        }
+      ]
+    },
+    "P1": {
+      "Type": "item",
+      "Description": "游泳皮肤",
+      "Price": 10,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_VampireDodo.PrimalItemSkin_FE_SwimShirt_VampireDodo'"
+        }
+      ]
+    },
+
+
+    "P2": {
+      "Type": "item",
+      "Description": "滑翔翼皮肤",
+      "Price": 1200,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/PrimalItemArmor_Glider.PrimalItemArmor_Glider'"
+        }
+      ]
+    },
+
+    "P3": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳裤_Alpha",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Alpha.PrimalItemSkin_SummerSwimPants_Alpha'"
+        }
+      ]
+    },
+    "P4": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳裤_Arthro",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Arthro.PrimalItemSkin_SummerSwimPants_Arthro'"
+        }
+      ]
+    },
+    "P5": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳裤_Carno",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Carno.PrimalItemSkin_SummerSwimPants_Carno'"
+        }
+      ]
+    },
+    "P6": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳裤_Flowers",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Carno.PrimalItemSkin_SummerSwimPants_Carno'"
+        }
+      ]
+    },
+    "P7": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳衣_Alpha",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Alpha.PrimalItemSkin_SummerSwimShirt_Alpha'"
+        }
+      ]
+    },
+    "P8": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳衣_Arthro",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Arthro.PrimalItemSkin_SummerSwimShirt_Arthro'"
+        }
+      ]
+    },
+    "P9": {
+      "Type": "item",
+      "Description": "皮肤夏季游泳衣_Flowers",
+      "Price": 100,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Flowers.PrimalItemSkin_SummerSwimShirt_Flowers'"
+        }
+      ]
+    },
+    "KT01": {
+      "Type": "beacon",
+      "Description": "15级绿色空投补给",
+      "Price": 100,
+      "ClassName": "SupplyCrate_level15_C"
+    },
+    "KT02": {
+      "Type": "beacon",
+      "Description": "25级蓝色空投补给",
+      "Price": 180,
+      "ClassName": "SupplyCrate_level25_C"
+    },
+    "KT03": {
+      "Type": "beacon",
+      "Description": "35级紫色空投补给",
+      "Price": 240,
+      "ClassName": "SupplyCrate_level35_C"
+    },
+    "KT04": {
+      "Type": "beacon",
+      "Description": "45级黄色空投补给",
+      "Price": 350,
+      "ClassName": "SupplyCrate_level45_C"
+    },
+    "KT05": {
+      "Type": "beacon",
+      "Description": "60级红色空投补给",
+      "Price": 1000,
+      "ClassName": "SupplyCrate_level60_C"
+    },
+    "KT06": {
+      "Type": "beacon",
+      "Description": "45级黄色增强补给",
+      "Price": 600,
+      "ClassName": "SupplyCrate_Level45_Double_C"
+    },
+    "KT07": {
+      "Type": "beacon",
+      "Description": "60级红色增强补给",
+      "Price": 1200,
+      "ClassName": "SupplyCrate_Level60_Double_C"
+    },
+    "KT08": {
+      "Type": "beacon",
+      "Description": "1级宝箱",
+      "Price": 100,
+      "ClassName": "SupplyCrate_Cave_QualityTier1_C"
+    },
+    "KT09": {
+      "Type": "beacon",
+      "Description": "2级宝箱",
+      "Price": 200,
+      "ClassName": "SupplyCrate_Cave_QualityTier2_C"
+    },
+    "KT10": {
+      "Type": "beacon",
+      "Description": "3级宝箱",
+      "Price": 600,
+      "ClassName": "SupplyCrate_Cave_QualityTier3_C"
+    },
+    "KT11": {
+      "Type": "beacon",
+      "Description": "4级宝箱",
+      "Price": 1500,
+      "ClassName": "SupplyCrate_Cave_QualityTier4_C"
+    },
+
+
+    "SQ01": {
+      "Type": "item",
+      "Description": "神器一套",
+      "Price": 1200,
+      "Items": [
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'"
+        },
+        {
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Amount": 1,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'"
+        }
+      ]
+    }
+  },
+  "Messages": {
+    "Sender": "商店系统",
+    "BoughtItem": "<RichColor Color=\"1.000,0.502,0.000,1\">购买物品成功</>",
+    "BoughtDino": "<RichColor Color=\"1.000,0.502,0.000,1\">购买恐龙成功</>",
+    "BoughtBeacon": "<RichColor Color=\"1.000,0.502,0.000,1\">购买信标成功</>",
+    "BoughtExp": "<RichColor Color=\"1.000,0.502,0.000,1\">购买经验成功!</>",
+    "ReceivedPoints": "<RichColor Color=\"1.000,0.502,0.000,1\">您已收到{0}金币(总计:{1})</>",
+    "HavePoints": "你拥有{0}金币",
+    "NoPoints": "<RichColor Color=\"1.000,0.502,0.000,1\">没有足够金币</>",
+    "WrongId": "<RichColor Color=\"1.000,0.502,0.000,1\">错误的ID</>",
+    "NoPermissionsKit": "<RichColor Color=\"1.000,0.502,0.000,1\">你没有领取这个礼包的权力</>",
+    "CantBuyKit": "<RichColor Color=\"1.000,0.502,0.000,1\">你不能购买这个礼包</>",
+    "BoughtKit": "<RichColor Color=\"1.000,0.502,0.000,1\">您已经成功地购买了 {0} 物品</>",
+    "AvailableKits": "礼包列表:",
+    "NoKits": "没有可用的礼包",
+    "KitsLeft": "剩下{0}个{1}个礼包",
+    "NoKitsLeft": "你没有该{0}礼包了",
+    "CantGivePoints": "<RichColor Color=\"1.000,0.502,0.000,1\">你不能给自己金币</>",
+    "RidingDino": "<RichColor Color=\"1.000,0.502,0.000,1\">骑乘时不能买这个物品</>",
+    "SentPoints": "<RichColor Color=\"1.000,0.502,0.000,1\">您已经成功地将 {0} 金币发送到 {1}</>",
+    "GotPoints": "您从{1}收到了{0}金币",
+    "NoPlayer": "<RichColor Color=\"1.000,0.502,0.000,1\">玩家不存在</>",
+    "FoundMorePlayers": "<RichColor Color=\"1.000,0.502,0.000,1\">找到了多个具有指定id的玩家!</>",
+    "BuyUsage": "购买说明:/买 Id",
+    "ShopUsage": "打开商店:/商店",
+    "KitUsage": "打开礼包 /礼包 id",
+    "BuyKitUsage": "购买礼包:/购买礼包 id 数量",
+    "TradeUsage": "转账说明:/转账 玩家名字 金币数量",
+    "PointsCmd": "/金币",
+    "TradeCmd": "/转账",
+    "BuyCmd": "/购买",
+    "ShopCmd": "/商店",
+    "KitCmd": "/礼包",
+    "BuyKitCmd": "/购买礼包",
+    "SellCmd": "/出售",
+    "ShopSellCmd": "/回收",
+    "SellUsage": "出售说明: /出售 id 数量",
+    "NotEnoughItems": "<RichColor Color=\"1.000,0.502,0.000,1\">你没有足够的物品({0}/{1})</>",
+    "SoldItems": "<RichColor Color=\"1.000,0.502,0.000,1\">出售成功</>",
+    "BadLevel": "<RichColor Color=\"1.000,0.502,0.000,1\">需要的VIP等级:{0} - {1}</>",
+    "KitsListPrice": "购买价格:{0}金币",
+    "KitsListFormat": "\"{0}\" - {1}. 可领取{2} 个. {3}\n",
+    "StoreListDino": "{0}) {1}. 等级: {2}. Id: {3}. 价格: {4}\n",
+    "StoreListItem": "{0}) {1}. Id: {2}. 价格: {3}\n",
+    "StoreListFormat": "-------------------------商品列表-------------------------\n{0}\n---------------------------------------------------------\n",
+    "OnlyOnSpawnKit": "无法领取该礼包",
+    "HelpCmd": "/帮助",
+    "Title": "欢迎来到1733X本服务器，本服务器已开通商店系统，有问题随时联系QQ：173324094",
+    "ShopMessage": "当前第{0}页，商店总共有{1}页\n ---------------- ----------------\n",
+    "HelpMessage": "-------------------------使用帮助--------------------------\n-------商店列表:/商店  购买商品:/购买 ID  商店翻页:/商店 页数------\n----礼包列表:/礼包  领取礼包:/礼包 ID  购买礼包:/购买礼包 ID 数量----\n-----------查询金币:/金币  回收列表:/回收  出售命令:/出售----------\n----------转账命令:/转账 '名字' 1000  名字要用逗号包裹起来---------\n↓\n--------------------需要Vip联系管理获取--------------------\n↓\n-------------------------服务器规定------------------------\n-------------规矩如下:资源点,BUG点,神器宝箱附近禁止建家------------\n-----------违规情况视情节严重处理,造成严重后果的一键ban部落----------\n-----------------"
+  }
+}
